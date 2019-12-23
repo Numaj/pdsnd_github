@@ -6,7 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
                   'new york city': 'new_york_city.csv',
                   'washington': 'washington.csv' }
 def get_filters():
-    month_dict={'jan':'january','feb':'february','mar':'march','apr':'april','may':'may','jun':'june','jul':'july','aug':'august','sep':'september','oct':'october','nov':'november','dec':'december'}
+    month_dict={'jan':'january','feb':'february','mar':'march','apr':'april','may':'may','jun':'june'}
     day_dict={'mon':'monday','tue':'tuesday','wed':'wednesday','thu':'thursday','fri':'friday','sat':'saturday','sun':'sunday'}
 
     print('Hello! Let\'s explore some US bikeshare data!')
