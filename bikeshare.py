@@ -22,7 +22,7 @@ def get_filters():
     if (city=='washington'):
         print('You chose Washington')
         # TO DO: get user input for month (all, january, february, ... , june)
-    month=input("Which month would you like to choose ? press jan for January, feb for February, etc. Press 'all' to apply no month filter \n").lower()
+    month=input("Choose a month. press jan for January, feb for February, etc. Press 'all' to apply no month filter \n").lower()
     while (month not in month_dict and month!='all'):
         month=input("Please press jan/fev/mar/apr/may/jun/all \n").lower()
     for key, value in month_dict.items():
@@ -32,7 +32,7 @@ def get_filters():
 
             # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
 
-    day=input("Which day would you like to choose ? press mon for Monday, tue for Tuesday, etc. Press 'all' to apply no day filter \n").lower()
+    day=input("Choose a day. press mon for Monday, tue for Tuesday, etc. Press 'all' to apply no day filter \n").lower()
     while (day not in day_dict and day!='all'):
         day=input("Please press mon/tue/wed/thu/fri/sat/sun/all \n").lower()
     for key, value in day_dict.items():
