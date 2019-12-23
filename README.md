@@ -4,7 +4,7 @@
 ### Project Title
 US Bikeshare data analysis
 
-###Description
+### Description
 Descriptive statistics on US bike users among different cities
 
 
@@ -21,3 +21,5 @@ https://docs.python.org/2/tutorial/controlflow.html
 http://www.datasciencemadesimple.com/concatenate-two-columns-dataframe-pandas-python-2/
 https://www.dataquest.io/blog/pandas-concatenation-tutorial/
 https://www.geeksforgeeks.org/python-extracting-rows-using-pandas-iloc/
+
+Many thanks to Udacity and Mercy, my mentor for this course !
